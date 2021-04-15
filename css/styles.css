@@ -60,8 +60,31 @@ h1 {
 
 
 
-/* SERVICES */
 
+
+/* SERVICES */
+.services {
+    display: flex;
+    justify-content: space-around;
+    margin: 65px;
+}
+
+.service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 170px;
+}
+
+.service-icon {
+    color: #ADD981;
+    font-size: 35px;
+}
+
+.service-details {
+    text-align: center;
+    font-weight: 600;
+}
 
 
 
