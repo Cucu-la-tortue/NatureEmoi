@@ -14,6 +14,11 @@ body {
     font-family: "Montserrat";
 }
 
+.container {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
 
 
 /* TOP PAGE */
@@ -90,7 +95,40 @@ h1 {
 
 
 /* MEILLEURES VENTES */
+h2 {
+    font-family: "Abril Fatface";
+    font-weight: 400;
+    font-size: 50px;
+}
 
+.all-plants {
+    display: flex;
+}
+
+.plant-box {
+    height: 500px;
+    min-width: 300px;
+    background-position: center;
+    background-size: cover;
+    flex: 1;
+    position: relative;
+}
+
+.plant-1 {
+    background-image: url('/assets/images/nos_meilleures_ventes/1.jpg');
+}
+
+.plant-2 {
+    background-image: url('/assets/images/nos_meilleures_ventes/2.jpg');
+}
+
+.plant-3 {
+    background-image: url('/assets/images/nos_meilleures_ventes/3.jpg');
+}
+
+.plant-4 {
+    background-image: url('/assets/images/nos_meilleures_ventes/4.jpg');
+}
 
 
 
