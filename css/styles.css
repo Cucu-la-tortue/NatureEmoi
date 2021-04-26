@@ -108,10 +108,11 @@ h2 {
 .plant-box {
     height: 500px;
     min-width: 300px;
-    background-position: center;
     background-size: cover;
+    background-position: center;
     flex: 1;
-    position: relative;
+    display: flex;
+    align-items: flex-end;
 }
 
 .plant-1 {
@@ -130,6 +131,27 @@ h2 {
     background-image: url('/assets/images/nos_meilleures_ventes/4.jpg');
 }
 
+.plant-info {
+    background-color: #FFFFFFDF;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 25px;
+    padding-left: 20px;
+}
+
+.plant-description {
+    font-weight: 600;
+}
+
+.plant-name {
+}
+
+.plant-price {
+    color:#ADD981;
+    font-size: 14px;
+}
 
 
 
