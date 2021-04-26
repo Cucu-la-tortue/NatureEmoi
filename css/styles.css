@@ -133,7 +133,7 @@ h2 {
 
 .plant-info {
     background-color: #FFFFFFDF;
-    width: 100%;
+    width: 100%; 
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -153,6 +153,18 @@ h2 {
     font-size: 14px;
 }
 
+.more-button {
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #ADD981;
+    transition: ease-in 200ms;
+}
+
+.more-button:hover {
+    background-color: #ADD981BF;
+}
 
 
 
