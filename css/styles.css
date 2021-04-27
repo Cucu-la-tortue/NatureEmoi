@@ -101,6 +101,10 @@ h2 {
     font-size: 50px;
 }
 
+h2::first-letter {
+    border-bottom: 7px solid #ADD981;
+}
+
 .all-plants {
     display: flex;
 }
@@ -116,19 +120,19 @@ h2 {
 }
 
 .plant-1 {
-    background-image: url('/assets/images/nos_meilleures_ventes/1.jpg');
+    background-image: url('../assets/images/nos_meilleures_ventes/1.jpg');
 }
 
 .plant-2 {
-    background-image: url('/assets/images/nos_meilleures_ventes/2.jpg');
+    background-image: url('../assets/images/nos_meilleures_ventes/2.jpg');
 }
 
 .plant-3 {
-    background-image: url('/assets/images/nos_meilleures_ventes/3.jpg');
+    background-image: url('../assets/images/nos_meilleures_ventes/3.jpg');
 }
 
 .plant-4 {
-    background-image: url('/assets/images/nos_meilleures_ventes/4.jpg');
+    background-image: url('../assets/images/nos_meilleures_ventes/4.jpg');
 }
 
 .plant-info {
@@ -146,20 +150,25 @@ h2 {
 }
 
 .plant-name {
+    font-size: 19px;
+    line-height: 3px;
 }
 
 .plant-price {
-    color:#ADD981;
+    color:#ADD981; 
     font-size: 14px;
+    line-height: 3px;
 }
 
 .more-button {
+    font-size: ;
     text-decoration: none;
     color: white;
     border-radius: 20px;
-    padding: 10px;
+    padding: 10px 20px;
     background-color: #ADD981;
     transition: ease-in 200ms;
+    box-shadow: 0 4px 3px rgb(221, 223, 222);
 }
 
 .more-button:hover {
